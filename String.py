@@ -2,7 +2,8 @@
 hello = "hello world 123!"
 
 long_string = "This is a very loooooong string"
-print(long_string[0:8])
+print(long_string[3])   # Prints the character in the 3rd position
+print(long_string[0:8]) # Prints the characters from the 0 position to the 8th position
 print(long_string[-5:])
 print(long_string[:-5])
 print(long_string[0:15] + "short string")
@@ -29,3 +30,24 @@ print(quote_list)
 print("Looping through a String:")
 for letter in hello:
     print(letter)
+
+# Placeholders in Strings
+print("%s Vazquez" % "Jorge")
+print("My name is %s and I'm %d years old" % ("Jorge", 37))
+
+# Strings can be concatenated (glued together) with the + operator, and repeated with *
+print "Jorge " * 3
+# 3 times 'un', followed by 'ium'
+print 3 * 'un' + 'ium'
+# Two or more string literals next to each other are automatically concatenated.
+print 'Py' 'thon'
+# This feature is particularly useful when you want to break long strings:
+text = ('Put several strings within parentheses '
+        'to have them joined together.')
+print text
+# Strings can be indexed (subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one:
+word = 'Python'
+print word[0]  # character in position 0
+print word[5]  # character in position 5
+
+
