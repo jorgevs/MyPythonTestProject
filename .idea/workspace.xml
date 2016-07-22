@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01689dc3-fb7f-44a3-8905-25227b8702e0" name="Default" comment="Adding the way to send an email">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Files2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Functions2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lists2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions.py" afterPath="$PROJECT_DIR$/Functions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lists.py" afterPath="$PROJECT_DIR$/Lists.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Loops.py" afterPath="$PROJECT_DIR$/Loops.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SearchStringInScripts.py" afterPath="$PROJECT_DIR$/SearchStringInScripts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String.py" afterPath="$PROJECT_DIR$/String.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InputFromUser.py" afterPath="$PROJECT_DIR$/InputFromUser.py" />
     </list>
     <ignored path="MyPythonTestProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,8 +38,18 @@
       <file leaf-file-name="InputFromUser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InputFromUser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lists2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lists2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -60,11 +65,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Loops.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Loops.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Loops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tuples.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tuples.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -112,28 +127,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Files2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Files2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Numbers.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Numbers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -165,7 +158,6 @@
         <option value="$PROJECT_DIR$/emailTest.py" />
         <option value="$PROJECT_DIR$/DateTime.py" />
         <option value="$PROJECT_DIR$/StringFormating.py" />
-        <option value="$PROJECT_DIR$/InputFromUser.py" />
         <option value="$PROJECT_DIR$/Variables.py" />
         <option value="$PROJECT_DIR$/comments.py" />
         <option value="$PROJECT_DIR$/MainParameters.py" />
@@ -183,6 +175,8 @@
         <option value="$PROJECT_DIR$/SearchStringInScripts.py" />
         <option value="$PROJECT_DIR$/Lists.py" />
         <option value="$PROJECT_DIR$/Loops.py" />
+        <option value="$PROJECT_DIR$/InputFromUser.py" />
+        <option value="$PROJECT_DIR$/Lists2.py" />
       </list>
     </option>
   </component>
@@ -276,41 +270,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Loops">
-    <configuration default="false" name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MyPythonTestProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Functions2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="MyPythonTestProject" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Functions2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.Lists2">
     <configuration default="false" name="Loops" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -358,6 +318,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MyPythonTestProject" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SearchStringInScripts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="InputFromUser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyPythonTestProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InputFromUser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Lists2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MyPythonTestProject" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lists2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -497,19 +491,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Functions" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Functions2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Loops" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Lists" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SearchStringInScripts" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Loops" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Lists" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SearchStringInScripts" />
+      <item index="3" class="java.lang.String" itemvalue="Python.InputFromUser" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Lists2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Loops" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Lists" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SearchStringInScripts" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Functions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Functions2" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Lists2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.InputFromUser" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Loops" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Lists" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SearchStringInScripts" />
       </list>
     </recent_temporary>
   </component>
@@ -592,14 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/InputFromUser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -735,13 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tuples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -941,22 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/InputFromUser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InputFromUser2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SearchStringInScripts.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -985,8 +948,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Loops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tuples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputFromUser2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputFromUser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lists2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding />
         </state>
       </provider>
