@@ -18,7 +18,7 @@ for fileName in glob.glob("*.py"):
     file = open(fileName, 'r')
     file_content = file.read()
     if stringToSearch in file_content:
-        print(">>" + file.name)
+        print(">> " + file.name)
     file.close()
 
 # os.chdir(scriptDirectory)
