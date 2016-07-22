@@ -19,7 +19,8 @@ def foo(a=1, b=2):
     return sumNum
 
 
-def bar(*args):  # Receives parameters as a list
+# *args tells Python to take all the arguments to the function and then put them in args as a list.
+def bar(*args):
     print args
 
 
