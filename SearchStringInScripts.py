@@ -10,7 +10,7 @@ scriptName = os.path.split(script)[1]
 print "The script location is: " + scriptDirectory
 
 
-stringToSearch = '*arg'
+stringToSearch = '[:]'
 print("\nSearching for files with string: " + stringToSearch)
 
 os.chdir(scriptDirectory)

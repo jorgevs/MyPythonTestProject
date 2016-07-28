@@ -8,11 +8,8 @@ Copyright 2016 Vasudev Ram
 
 import copy
 
-
+# A class to process strings in various ways.
 class StringProcessor(object):
-    '''
-    A class to process strings in various ways.
-    '''
 
     def __init__(self, st):
         '''Pass a string for st'''
@@ -53,8 +50,7 @@ def process_string(s):
     print 'Original:', sp.rep()
     print 'After uppercase:', sp.dup().uppercase().rep()
     print 'After lowercase:', sp.dup().lowercase().rep()
-    print 'After uppercase then capitalize:', sp.dup().uppercase(). \
-        capitalize().rep()
+    print 'After uppercase then capitalize:', sp.dup().uppercase().capitalize().rep()
     print 'After delspace:', sp.dup().delspace().rep()
 
 

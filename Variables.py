@@ -19,3 +19,7 @@ print person1 + " " + person2 + " " + person3
 person1 = person2 = person3 = "Igue"
 print person1 + " " + person2 + " " + person3
 
+# To define a floating point number, you may use one of the following notations:
+myfloat = 7.0
+myfloat = float(7)
+

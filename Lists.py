@@ -59,3 +59,9 @@ print "=========================================================================
 
 listaDeListas = [myList, otraLista]
 print "listaDeListas es: %r" % listaDeListas
+
+print "================================================================================"
+# A Python way of copying a list. You use the list slice syntax [:] to
+# effectively make a slice from the very first element to the very last one.
+newList = myList[:]
+print newList

@@ -64,3 +64,11 @@ print formatter2 % (
 # This prints out: A list: [1, 2, 3]
 mylist = [1,2,3]
 print "A list: %s" % mylist
+
+
+# The "in" operator could be used to check if a specified object exists within an iterable object container, such as a list.
+name = "John"
+if name in ["John", "Rick"]:
+    print "Your name is either John or Rick."
+
+print '-' * 10

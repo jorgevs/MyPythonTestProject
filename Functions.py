@@ -22,6 +22,16 @@ def foo(a=1, b=2):
 # *args tells Python to take all the arguments to the function and then put them in args as a list.
 def bar(*args):
     print args
+    print "The second value is: %d" % args[1]
+    return args[0]
+
+
+# It is also possible to send functions arguments by keyword, so that the order of the argument does not matter.
+def bar2(first, second, third, **options):
+    if options.get("action") == "sum":
+        print "The sum is: %d" % (first + second + third)
+    if options.get("number") == "first":
+        return first
 
 
 print "addNumbers(10,20):", addNumbers(10, 20)
@@ -38,6 +48,8 @@ print foo(b=3)
 print bar(1, 2, 3, 4)
 print bar(1*1, 2+3, 3, 4+4)
 
+result = bar2(1, 2, 3, action="sum", number="first")
+print "Result is: %d" % result
 
 # ===========================================================================================================
 print "==========================================================================================================="
