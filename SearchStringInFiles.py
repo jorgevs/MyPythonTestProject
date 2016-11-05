@@ -12,6 +12,7 @@ print("\nSearching for files with string: " + sValue)
 #         print("xx" + f.name)
 #     f.close()
 
+
 os.chdir("/home/jorgevs/PycharmProjects/MyPythonTestProject")
 for files in glob.glob("*.txt"):
     with open(files, 'r') as inF:
