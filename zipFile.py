@@ -11,7 +11,11 @@ for name in glob.glob('*.txt'):
 myFile.close()
 
 # open the file again, to see what's in it
-
 myFile = zipfile.ZipFile("test.zip", "r")
 for info in myFile.infolist():
     print info.filename, info.date_time, info.file_size, info.compress_size
+
+# Shows the content of the contained files
+for name in myFile.namelist():
+    data = myFile.read(name)
+    print name, len(data), repr(data[:10])
