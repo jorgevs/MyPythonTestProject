@@ -1,5 +1,5 @@
 import urllib
-import urllib2
+#import urllib2
 import re
 
 HTML_TAG = re.compile(r'<[^>]+>')
@@ -32,10 +32,10 @@ def remove_unnecessary_tags(text):
 def process_url(initial_url, initial_list):
     for element in initial_list:
         new_url = initial_url + element
-        print new_url
+        print(new_url)
 
         if str(new_url).endswith("/"):
-            response = urllib2.urlopen(new_url)
+            response = urllib.urlopen(new_url)
             data = response.read()
 
             # Remove HTML tags, new lines and other characters from the response
@@ -48,11 +48,11 @@ def process_url(initial_url, initial_list):
                 if x != "":
                     new_list.append(x)
 
-            print new_list
+            print(new_list)
             process_url(new_url, new_list)
         else:
             if str(new_url).endswith(".pdf"):
-                print "Save file"
+                print("Save file")
 
                 # Replace the '#' character from the filename and from the url
                 # file_name = "Pobre-so#U00f1ador.pdf" #str(element)
@@ -63,7 +63,7 @@ def process_url(initial_url, initial_list):
                 pdf_url = pdf_url.replace('#', '%23')
 
 
-                response = urllib2.urlopen(pdf_url)
+                response = urllib.urlopen(pdf_url)
                 data = response.read()
 
                 # use of 'wb'. Pdf files are binary files so you need the 'b'
@@ -80,14 +80,14 @@ def main():
 
 main()
 
-# print "downloading with urllib"
+# print("downloading with urllib")
 # urllib.urlretrieve(url, "code.zip")
 
 
 # with open("code2.zip", "wb") as code:
 #     code.write(f.read())
 
-# print "downloading with requests"
+# print("downloading with requests")
 # r = requests.get(url)
 # with open("code3.zip", "wb") as code:
 #     code.write(r.content)

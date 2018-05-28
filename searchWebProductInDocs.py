@@ -23,14 +23,14 @@ for files in glob.glob("*.xml"):
         syndDocsList.append(f.name)
     f.close()
 
-print "IN BOTH =============================="
+print("IN BOTH ==============================")
 for item in bothList:
-    print ">> " + item
-print "ONLY DATA ============================"
+    print(">> " + item)
+print("ONLY DATA ============================")
 for item in dataList:
-    print ">> " + item
-print "ONLY SYNDDOCS========================="
+    print(">> " + item)
+print("ONLY SYNDDOCS=========================")
 for item in syndDocsList:
-    print ">> " + item
+    print(">> " + item)
 
 

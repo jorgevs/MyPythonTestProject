@@ -8,14 +8,19 @@ myFile.close()
 
 #===========================================================================
 f = open("myTxtFile.txt", 'r')
-print f
+print(f)
+
+# Copy the content to a new file
+newFile = open("myTxtFile_Copy.txt", 'w')
+newFile.write(f.read())
+newFile.close()
 
 #===========================================================================
 # Writting a line in a file
 myFile = open("test.txt", 'wb')   #use 'ab+' to read & append to file (It also opens or creates the file)
 print("mode: " + myFile.mode)
 print("fileName: " + myFile.name)
-myFile.write(bytes("I have written to myFile\n"))
+myFile.write(bytes("I have written to myFile\n", "UTF-8"))
 myFile.close()
 
 #===========================================================================
@@ -28,7 +33,7 @@ myFile.close()
 # Reading a file
 myFile = open("test.txt", 'r+')
 text_in_file = myFile.read()
-print("Content of test.txt:" + text_in_file)
+print("Content of test.txt: " + text_in_file)
 myFile.close()
 
 #===========================================================================

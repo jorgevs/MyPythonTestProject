@@ -16,6 +16,6 @@ try:
     mailserver = smtplib.SMTP_SSL('e19.ehosts.com', 465)
     mailserver.login("jorge.vs@tecnohobby.net", "XXXXXXX")
     mailserver.sendmail(sender, receivers, message)
-    print "Successfully sent email"
+    print("Successfully sent email")
 except SMTPException:
-    print "Successfully sent email"
+    print("Successfully sent email")
