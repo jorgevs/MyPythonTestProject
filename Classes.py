@@ -1,5 +1,6 @@
-# Classes ===========================================================================
+# Class1 ===========================================================================
 
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 class Animal:
     __name = ""
     __height = 0
@@ -34,8 +35,10 @@ class Animal:
     def get_type(self):
         print("Animal")
 
+    # Other methods
     def toString(self):
         return "{} is {} cm tall and {} kilograms".format(self.__name, self.get_height(), self.__weight)
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 cat = Animal('Whiskers', 20, 12)
@@ -78,11 +81,18 @@ test_animals.get_type(cat)
 test_animals.get_type(dog)
 
 
-# Classes2 ===========================================================================
+# Class2 ===========================================================================
 
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 class Talker(object):
     def greet(self, name):
-        print 'Hello, %s!' % name
+        print('Hello, %s!' % name)
 
     def farewell(self, name):
-        print 'Farewell, %s!' % name
+        print('Farewell, %s!' % name)
+# @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+t = Talker()
+t.greet("Jorge")
+t.farewell("Jorge")
