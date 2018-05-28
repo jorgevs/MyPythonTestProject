@@ -11,6 +11,13 @@ for x in elements:
     print x
 
 print "================================================================"
+elements = []
+for x in range(0, 100, 20):
+    elements.append(x)   # It simply appends x to the end of the list
+for x in elements:
+    print x
+
+print "================================================================"
 for item in ['jorge', 'ivis', 'igue', 'eto']:
     print item
 
