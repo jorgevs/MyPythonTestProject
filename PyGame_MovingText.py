@@ -36,7 +36,7 @@ while 1:
     screen.blit(helloWorld, (x, y))
 
     mousePosition = pygame.mouse.get_pos()
-    x , y = mousePosition
+    x, y = mousePosition
 
     if (x + helloWorldSize[0] > 800) or (x <= 0):
         x = 800 - helloWorldSize[0]

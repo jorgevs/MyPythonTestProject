@@ -23,7 +23,7 @@ sound = pygame.mixer.Sound("assets/sounds/hit.wav")
 
 pygame.mouse.set_visible(0)
 
-x,y = 400, 300
+x, y = 400, 300
 directionX = 1
 directionY = 1
 
@@ -34,8 +34,10 @@ while 1:
     clock.tick(40)
 
     for event in pygame.event.get():
+
         if event.type == pygame.QUIT:
             sys.exit()
+
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT: x += 5
             if event.key == pygame.K_LEFT: x -= 5
@@ -55,4 +57,5 @@ while 1:
         sound.play()
 
     screen.blit(helloWorld, (x, y))
+
     pygame.display.update()

@@ -23,7 +23,7 @@ sound = pygame.mixer.Sound("assets/sounds/hit.wav")
 
 pygame.mouse.set_visible(0)
 
-x,y = 0,0
+x, y = 0, 0
 directionX = 1
 directionY = 1
 
@@ -41,7 +41,7 @@ while 1:
     screen.blit(helloWorld, (x, y))
 
     mousePosition = pygame.mouse.get_pos()
-    x , y = mousePosition
+    x, y = mousePosition
 
     if (x + helloWorldSize[0] > 800) or (x <= 0):
         x = 800 - helloWorldSize[0]
