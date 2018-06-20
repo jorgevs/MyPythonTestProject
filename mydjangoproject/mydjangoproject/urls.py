@@ -18,7 +18,8 @@ from django.urls import path, include
 from django.conf.urls import url
 
 urlpatterns = [
-    path('mydjangoapp/', include('mydjangoapp.urls')),
     path('admin/', admin.site.urls),
-    url(r'^scrumboard/', include('scrumboard.urls')),
+    path('mydjangoapp/', include('mydjangoapp.urls')),
+    path('scrumboard/', include('scrumboard.urls')),
+    #url(r'^scrumboard/', include('scrumboard.urls')),
 ]
