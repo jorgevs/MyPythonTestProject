@@ -1,7 +1,7 @@
 import glob
 import os
 
-sValue = 'smtp'
+sValue = 'url'
 print("\nSearching for files with string: " + sValue)
 
 # os.chdir("/home/jorgevs/PycharmProjects/MyPythonTestProject")
@@ -13,7 +13,7 @@ print("\nSearching for files with string: " + sValue)
 #     f.close()
 
 
-os.chdir("/data/workspaces/workspace_Pycharm/MyPythonTestProject")
+os.chdir("D:\\StorageHome\\workspace_Pycharm\\MyPythonTestProject")
 for files in glob.glob("*.py"):
     with open(files, 'r') as inF:
         for line in inF:
