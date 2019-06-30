@@ -1,5 +1,8 @@
 import win32com.client
 
+# Documentation:
+# http://timgolden.me.uk/pywin32-docs/contents.html
+
 # Github Repo
 # https://github.com/mhammond/pywin32
 
