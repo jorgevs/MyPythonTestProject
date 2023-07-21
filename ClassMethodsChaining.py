@@ -47,15 +47,15 @@ class StringProcessor(object):
 def process_string(s):
     print
     sp = StringProcessor(s)
-    print 'Original:', sp.rep()
-    print 'After uppercase:', sp.dup().uppercase().rep()
-    print 'After lowercase:', sp.dup().lowercase().rep()
-    print 'After uppercase then capitalize:', sp.dup().uppercase().capitalize().rep()
-    print 'After delspace:', sp.dup().delspace().rep()
+    print('Original:', sp.rep())
+    print('After uppercase:', sp.dup().uppercase().rep())
+    print('After lowercase:', sp.dup().lowercase().rep())
+    print('After uppercase then capitalize:', sp.dup().uppercase().capitalize().rep())
+    print('After delspace:', sp.dup().delspace().rep())
 
 
 def main():
-    print "Demo of method chaining in Python:"
+    print("Demo of method chaining in Python:")
     # Use extra spaces between words to show effect of delspace.
     process_string('hOWz  It     GoInG?')
     process_string('The      QUIck   brOWn         fOx')
