@@ -3,6 +3,9 @@ for x in range(1, 4):
     print ('Hello, new Python user! '
            'This is time number %d' % x)
 
+for i in range(0, 10):
+    print(i)
+
 print ("================================================================")
 elements = []
 for x in range(1, 9):
